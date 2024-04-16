@@ -1,8 +1,5 @@
 export default class PlayingArea {
-    // constructor(element) {
-    //   this._element = element;
-    // }
-  
+
     randomMovingGoblin() {
       const goblinImg = document.createElement('img');
       goblinImg.classList.add('playing-area__img');
@@ -20,4 +17,5 @@ export default class PlayingArea {
   
       playingItemsCollection[randomPlayingItem].append(goblinImg);
     }
+    
   }
