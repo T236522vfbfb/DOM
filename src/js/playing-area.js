@@ -1,9 +1,11 @@
+import image from '../img/goblin.png';
+
 export default class PlayingArea {
 
     randomMovingGoblin() {
       const goblinImg = document.createElement('img');
       goblinImg.classList.add('playing-area__img');
-      goblinImg.src = 'img/goblin.png';
+      goblinImg.src = image;
   
       const playingItemsCollection = document.querySelectorAll('.playing-area__item');
   
